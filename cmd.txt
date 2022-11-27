@@ -1,0 +1,62 @@
+
+XAMPP
+
+	 (sudo chmod 755 xampp-linux-x64-7.4.27-2-installer.run 
+	
+	 ls -l xampp-linux-x64-7.4.27-2-installer.run 
+	 
+
+	sudo ./xampp-linux-x64-7.4.27-2-installer.run 
+
+
+Run -      
+(1)  sudo /opt/lampp/manager-linux-x64.run
+
+(2)	 sudo service mysql stop
+
+	 sudo /opt/lampp/lampp start
+
+	 cd /opt/lampp
+
+	 sudo ./manager-linux-x64.run
+
+
+
+Uninstall - 
+
+ sudo /opt/lampp/uninstall
+
+sudo rm -r /opt/lamp
+
+
+
+	sudo service mysql stop
+	sudo service mysql restart
+
+
+http://localhost/phpmyadmin/index.php?route=/server/status
+
+
+
+$ conda create -n myenv python=3.9.7
+
+
+
+
+ $ conda activate myenv
+ 
+ $ conda deactivate
+
+
+
+(myenv) $ pip install flask
+$ pip install Flask-Mail
+$ pip install Flask-SQLAlchemy
+$ pip install mysqlclient
+$ pip install Flask-Login
+
+pip install -r requirements.txt 
+
+(myenv) Vehicles$ python3 main.py
+
+ * Running on http://127.0.0.1:5000/ 
